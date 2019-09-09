@@ -1,0 +1,834 @@
+
+MODEL   6500-02
+SN         8994037
+
+TEST NUMBER      1
+DATE     03-APR-14
+APP NO  362       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      141 VA P
+LIMIT      3700 VA
+CURRENT    0.6 A P
+LIMIT       16.0 A
+LKGE     0.01 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      2
+DATE     03-APR-14
+APP NO  363       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      304 VA P
+LIMIT      3700 VA
+CURRENT    1.3 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      3
+DATE     03-APR-14
+APP NO  364       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.11 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        1 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.13 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      4
+DATE     03-APR-14
+APP NO  462       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      141 VA P
+LIMIT      3700 VA
+CURRENT    0.6 A P
+LIMIT       16.0 A
+LKGE     0.01 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      5
+DATE     03-APR-14
+APP NO  463       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      304 VA P
+LIMIT      3700 VA
+CURRENT    1.3 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      6
+DATE     03-APR-14
+APP NO  464       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.11 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        1 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.13 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      7
+DATE     03-APR-14
+APP NO  465       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        3 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      8
+DATE     03-APR-14
+APP NO  466      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      407 VA P
+LIMIT      3700 VA
+CURRENT    1.7 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      9
+DATE     03-APR-14
+APP NO  467      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      280 VA P
+LIMIT      3700 VA
+CURRENT    1.2 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     10
+DATE     03-APR-14
+APP NO  468      
+TEST MODE 147 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE   200mA
+EARTH   0.06 OHM P
+LIMIT     0.30 OHM
+INS 1  14.98 MEG P
+LIMIT      0.3 MEG
+SUBST 1  0.17 mA P
+LIMIT      3.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     11
+DATE     03-APR-14
+APP NO  469      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      125 VA P
+LIMIT      3700 VA
+CURRENT    0.5 A P
+LIMIT       16.0 A
+LKGE     0.01 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     12
+DATE     03-APR-14
+APP NO  470      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        6 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.01 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     13
+DATE     03-APR-14
+APP NO  471      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        1 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     14
+DATE     03-APR-14
+APP NO  472      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        0 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.01 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     15
+DATE     03-APR-14
+APP NO  473      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        8 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     16
+DATE     03-APR-14
+APP NO  474      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        9 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     17
+DATE     03-APR-14
+APP NO  475      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD       11 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.01 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     18
+DATE     03-APR-14
+APP NO  476      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD       42 VA P
+LIMIT      3700 VA
+CURRENT    0.1 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     19
+DATE     03-APR-14
+APP NO  477      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        1 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     20
+DATE     03-APR-14
+APP NO  477       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        2 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     21
+DATE     03-APR-14
+APP NO  478      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      501 VA P
+LIMIT      3700 VA
+CURRENT    2.1 A P
+LIMIT       16.0 A
+LKGE     0.04 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     22
+DATE     03-APR-14
+APP NO  479      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      126 VA P
+LIMIT      3700 VA
+CURRENT    0.5 A P
+LIMIT       16.0 A
+LKGE     0.01 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     23
+DATE     03-APR-14
+APP NO  480      
+TEST MODE 151 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.30 OHM P
+LIMIT     1.00 OHM
+INS 1 >299.9 MEG P
+LIMIT      1.0 MEG
+SUBST 1  0.34 mA P
+LIMIT      3.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     24
+DATE     03-APR-14
+APP NO  481      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        5 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.01 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     25
+DATE     03-APR-14
+APP NO  482      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      684 VA P
+LIMIT      3700 VA
+CURRENT    2.9 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER     26
+DATE     07-APR-14
+APP NO  483      
+TEST MODE 150 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.09 OHM P
+LIMIT     0.30 OHM
+INS 1  116.8 MEG P
+LIMIT      1.0 MEG
+SUBST 1  0.09 mA P
+LIMIT      3.50 mA
+
+TEST NUMBER     27
+DATE     07-APR-14
+APP NO  484      
+TEST MODE 150 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.15 OHM P
+LIMIT     0.30 OHM
+INS 1 >299.9 MEG P
+LIMIT      1.0 MEG
+SUBST 1  0.19 mA P
+LIMIT      3.50 mA
+
+TEST NUMBER     28
+DATE     07-APR-14
+APP NO  485      
+TEST MODE 150 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.06 OHM P
+LIMIT     0.30 OHM
+INS 1   93.5 MEG P
+LIMIT      1.0 MEG
+SUBST 1  0.18 mA P
+LIMIT      3.50 mA
+
+TEST NUMBER     29
+DATE     07-APR-14
+APP NO  486      
+TEST MODE 150 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.00 OHM P
+LIMIT     0.30 OHM
+INS 1 >299.9 MEG P
+LIMIT      1.0 MEG
+SUBST 1  0.08 mA P
+LIMIT      3.50 mA
+
+TEST NUMBER     30
+DATE     07-APR-14
+APP NO  487      
+TEST MODE 150 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.00 OHM P
+LIMIT     0.30 OHM
+INS 1 >299.9 MEG P
+LIMIT      1.0 MEG
+SUBST 1  0.05 mA P
+LIMIT      3.50 mA
+
+TEST NUMBER     31
+DATE     07-APR-14
+APP NO  490       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        0 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.10 mA P
+LIMIT      0.50 mA
+
+TEST NUMBER     32
+DATE     07-APR-14
+APP NO  491      
+TEST MODE 146 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.26 OHM P
+LIMIT     0.30 OHM
+INS 1 >299.9 MEG P
+LIMIT      1.0 MEG
+PN CONTINUITY    P
+LOAD     1445 VA P
+LIMIT      3700 VA
+CURRENT    6.3 A P
+LIMIT       16.0 A
+LKGE     0.18 mA P
+LIMIT      3.50 mA
+
+TEST NUMBER     33
+DATE     07-APR-14
+APP NO  492      
+TEST MODE 146 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.04 OHM P
+LIMIT     0.30 OHM
+INS 1 >299.9 MEG P
+LIMIT      1.0 MEG
+PN CONTINUITY    P
+LOAD      260 VA P
+LIMIT      3700 VA
+CURRENT    1.1 A P
+LIMIT       16.0 A
+LKGE     0.11 mA P
+LIMIT      3.50 mA
+
+TEST NUMBER     34
+DATE     07-APR-14
+APP NO  493      
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        3 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+
+TEST NUMBER     35
+DATE     07-APR-14
+APP NO  494      
+TEST MODE 146 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.07 OHM P
+LIMIT     0.30 OHM
+INS 1 >299.9 MEG P
+LIMIT      1.0 MEG
+PN CONTINUITY    P
+LOAD        0 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.15 mA P
+LIMIT      3.50 mA
+
+TEST NUMBER     36
+DATE     07-APR-14
+APP NO  495      
+TEST MODE 146 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+BOND RANGE     10A
+EARTH   0.13 OHM P
+LIMIT     0.30 OHM
+INS 1 >299.9 MEG P
+LIMIT      1.0 MEG
+PN CONTINUITY    P
+LOAD        0 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.14 mA P
+LIMIT      3.50 mA
+
+TEST NUMBER     37
+DATE     07-APR-14
+APP NO  001       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        0 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+
+END OF DATA

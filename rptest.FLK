@@ -1,0 +1,295 @@
+
+MODEL   6500
+SN       3635010  
+
+TEST NUMBER      1
+DATE     09-SEP-19
+APP NO  001       
+TEST MODE 301 AUTO
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+VISUAL CHECK     P
+LEAD CONTINUITY  P
+EARTH   0.00 OHM P
+LIMIT     0.10 OHM
+INS 1   >299 MEG P
+LIMIT      1.0 MEG
+DES1  description 
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+TEXT1   note iec t
+TEXT2   est       
+
+TEST NUMBER      2
+DATE     09-SEP-19
+APP NO  2         
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+VISUAL CHECK     P
+DES1  visual      
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER      3
+DATE     09-SEP-19
+APP NO  3         
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+BOND RANGE   200mA
+EARTH   0.26 OHM F
+LIMIT     0.10 OHM
+DES1  200 ma bond 
+DES2  fail        
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER      4
+DATE     09-SEP-19
+APP NO  4         
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+BOND RANGE     25A
+EARTH   0.03 OHM P
+LIMIT     0.10 OHM
+DES1  25a bond    
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER      5
+DATE     09-SEP-19
+APP NO  5         
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+INS          250 V
+INS 1   >299 MEG P
+LIMIT      1.0 MEG
+DES1  250v insulat
+DES2  ion         
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER      6
+DATE     09-SEP-19
+APP NO  6         
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+INS          500 V
+INS 2   >299 MEG P
+LIMIT      2.0 MEG
+DES1  class 2 ins 
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER      7
+DATE     09-SEP-19
+APP NO  7         
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+SUBST 1  0.01 mA P
+LIMIT      3.50 mA
+DES1  subs  leak 1
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER      8
+DATE     09-SEP-19
+APP NO  8         
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+SUBST 2  0.01 mA P
+LIMIT      0.50 mA
+DES1  subs leak 2 
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER      9
+DATE     09-SEP-19
+APP NO  9         
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+PN CONTINUITY    P
+LOAD     2813 VA P
+LIMIT      3000 VA
+CURRENT   12.0 A P
+LIMIT       13.0 A
+LKGE     0.06 mA P
+LIMIT      0.75 mA
+DES1  load leak 1 
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER     10
+DATE     09-SEP-19
+APP NO  10        
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+PN CONTINUITY    P
+TOUCH    0.01 mA P
+LIMIT      0.25 mA
+DES1  touch 1     
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER     11
+DATE     09-SEP-19
+APP NO  11        
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+PN CONTINUITY    F
+LOAD        0 VA F
+LIMIT      3000 VA
+CURRENT    0.0 A F
+LIMIT       13.0 A
+LKGE     0.00 mA F
+LIMIT      0.75 mA
+DES1  load leak 1 
+DES2  off         
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER     12
+DATE     09-SEP-19
+APP NO  12        
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+PN CONTINUITY    F
+TOUCH    0.00 mA F
+LIMIT      0.25 mA
+DES1  load leak 1 
+DES2  off         
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER     13
+DATE     09-SEP-19
+APP NO  13        
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+PN CONTINUITY    F
+TOUCH    0.00 mA F
+LIMIT      0.25 mA
+DES1  touch 1 off 
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+TEXT1   ignore tes
+TEXT2   t 12      
+
+TEST NUMBER     14
+DATE     09-SEP-19
+APP NO  14        
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+PN CONTINUITY    F
+LOAD        0 VA F
+LIMIT      3000 VA
+CURRENT    0.0 A F
+LIMIT       13.0 A
+LKGE     0.00 mA F
+LIMIT      0.75 mA
+DES1  load 2 off  
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER     15
+DATE     09-SEP-19
+APP NO  15        
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+PN CONTINUITY    P
+LOAD     2811 VA P
+LIMIT      3000 VA
+CURRENT   12.0 A P
+LIMIT       13.0 A
+LKGE     0.06 mA P
+LIMIT      0.75 mA
+DES1  load 2 on   
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+TEST NUMBER     16
+DATE     09-SEP-19
+APP NO  16        
+TEST MODE   0  MAN
+SITE  test        
+SITE1     testc   
+SITE2             
+USER     R. Phipps
+PROBE PELV       P
+LIMIT         25 V
+DES1  pelv pass   
+DES2              
+DES3              
+LOC1  location    
+LOC2              
+
+END OF DATA

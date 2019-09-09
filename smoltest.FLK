@@ -1,0 +1,77 @@
+
+MODEL   6500-02
+SN         8994037
+
+TEST NUMBER      1
+DATE     03-APR-14
+APP NO  362       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      141 VA P
+LIMIT      3700 VA
+CURRENT    0.6 A P
+LIMIT       16.0 A
+LKGE     0.01 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      2
+DATE     03-APR-14
+APP NO  363       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.00 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD      304 VA P
+LIMIT      3700 VA
+CURRENT    1.3 A P
+LIMIT       16.0 A
+LKGE     0.02 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+TEST NUMBER      3
+DATE     03-APR-14
+APP NO  364       
+TEST MODE 241 AUTO
+SITE  100
+SITE1             
+SITE2             
+USER    1
+VISUAL CHECK     P
+INS 2 >299.9 MEG P
+LIMIT      2.0 MEG
+PN CONTINUITY    P
+TOUCH    0.11 mA P
+LIMIT      0.50 mA
+PN CONTINUITY    P
+LOAD        1 VA P
+LIMIT      3700 VA
+CURRENT    0.0 A P
+LIMIT       16.0 A
+LKGE     0.13 mA P
+LIMIT      0.50 mA
+LOC1  Werkstatt   
+LOC2              
+
+END OF DATA
