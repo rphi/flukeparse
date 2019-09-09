@@ -9,7 +9,9 @@ tests = []
 
 def parsetest(test, obj = None):
   if obj == None:
-    obj = {}
+    obj = {
+      'tests': {}
+    }
 
   if len(test) == 0:
     return obj
@@ -46,95 +48,120 @@ def parsetest(test, obj = None):
     return parsetest(test[1:], obj)
 
   elif 'LEAD CONTINUITY' in test[0]:
-    obj['ieccont'] = re.findall(r'LEAD CONTINUITY *([PF])', test[0])[0]
+    t = {}
+    t['continuity'] = re.findall(r'LEAD CONTINUITY *([PF])', test[0])[0]
     ex = re.findall(r'EARTH *(.*?) *([PF])', test[1])
-    obj['iecearth'] = ex[0][0]
-    obj['iecearthpass'] = ex[0][1]
-    obj['iecearthlimit'] = re.findall(r'LIMIT *(.*)', test[2])[0]
+    t['earth'] = ex[0][0]
+    t['earthpass'] = ex[0][1]
+    t['earthlimit'] = re.findall(r'LIMIT *(.*)', test[2])[0]
+    obj['tests']['iectest'] = t
     return parsetest(test[3:], obj)
   
   elif 'INS' in test[0]:
     # for some reason my tester adds an extra entry for insulation tests
     if 'INS 1' in test[1]:
-      obj['ins1voltage'] = re.findall(r'INS *(.*)', test[1])[0]
+      obj['tests']['ins1'] = {'testvoltage': re.findall(r'INS *(.*)', test[1])[0]}
     elif 'INS 2' in test[1]:
-      obj['ins2voltage'] = re.findall(r'INS *(.*)', test[1])[0]
+      obj['tests']['ins2'] = {'testvoltage': re.findall(r'INS *(.*)', test[1])[0]}
 
   elif 'INS 1' in test[0]:
     ex = re.findall(r'INS 1 *(.*?) *([PF])', test[0])
-    obj['ins1'] = ex[0][0]
-    obj['ins1pass'] = ex[0][1]
-    obj['ins1limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    t = {}
+    t['res'] = ex[0][0]
+    t['pass'] = ex[0][1]
+    t['limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    if 'ins1' in obj['tests']:
+      t['testvoltage'] = obj['tests']['ins1']['testvoltage']
+    obj['tests']['ins1'] = t
     return parsetest(test[2:], obj)
 
   elif 'INS 2' in test[0]:
     ex = re.findall(r'INS 2 *(.*?) *([PF])', test[0])
-    obj['ins2'] = ex[0][0]
-    obj['ins2pass'] = ex[0][1]
-    obj['ins2limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    t = {}
+    t['res'] = ex[0][0]
+    t['pass'] = ex[0][1]
+    t['limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    if 'ins2' in obj['tests']:
+      t['testvoltage'] = obj['tests']['ins2']['testvoltage']
+    obj['tests']['ins2'] = t
     return parsetest(test[2:], obj)
   
   elif 'PN CONTINUITY' in test[0]:
     if 'TOUCH' in test[1]:
       ex = re.findall(r'TOUCH *(.*?) *([PF])', test[1])
-      obj['touch'] = ex[0][0]
-      obj['touchpass'] = ex[0][1]
-      obj['touchlimit'] = re.findall(r'LIMIT *(.*)', test[2])[0]
-      obj['touchpn'] = re.findall(r'PN CONTINUITY *([PF])', test[0])[0]
+      t = {}
+      t['current'] = ex[0][0]
+      t['pass'] = ex[0][1]
+      t['limit'] = re.findall(r'LIMIT *(.*)', test[2])[0]
+      t['pncontinuity'] = re.findall(r'PN CONTINUITY *([PF])', test[0])[0]
+      obj['tests']['touch'] = t
       return parsetest(test[3:], obj)
     elif 'LOAD' in test[1]:
       ex = re.findall(r'LOAD *(.*?) *([PF])', test[1])
-      obj['load'] = ex[0][0]
-      obj['loadpass'] = ex[0][1]
-      obj['loadlimit'] = re.findall(r'LIMIT *(.*)', test[2])[0]
-      obj['loadpn'] = re.findall(r'PN CONTINUITY *([PF])', test[0])[0]
+      t = {}
+      t['load'] = ex[0][0]
+      t['pass'] = ex[0][1]
+      t['limit'] = re.findall(r'LIMIT *(.*)', test[2])[0]
+      t['pncontinuity'] = re.findall(r'PN CONTINUITY *([PF])', test[0])[0]
+      obj['tests']['load'] =  t
       return parsetest(test[3:], obj)
 
   elif 'CURRENT' in test[0]:
     ex = re.findall(r'CURRENT *(.*?) *([PF])', test[0])
-    obj['current'] = ex[0][0]
-    obj['currentpass'] = ex[0][1]
-    obj['currentlimit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    t = {}
+    t['current'] = ex[0][0]
+    t['pass'] = ex[0][1]
+    t['limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    obj['tests']['current'] = t
     return parsetest(test[2:], obj)
   
   elif 'LKGE' in test[0]:
     ex = re.findall(r'LKGE *(.*?) *([PF])', test[0])
-    obj['lkge'] = ex[0][0]
-    obj['lkgepass'] = ex[0][1]
-    obj['lkgelimit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    t = {}
+    t['current'] = ex[0][0]
+    t['pass'] = ex[0][1]
+    t['limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    obj['tests']['leakage'] = t
     return parsetest(test[2:], obj)
   
   elif 'BOND RANGE' in test[0]:
-    obj['earthbondcurrent'] = re.findall(r'BOND RANGE *(.*)', test[0])[0]
+    t = {}
+    t['testcurrent'] = re.findall(r'BOND RANGE *(.*)', test[0])[0]
     ex = re.findall(r'EARTH *(.*?) *([PF])', test[1])
-    obj['earthbond'] = ex[0][0]
-    obj['earthbondpass'] = ex[0][1]
-    obj['earthbondlimit'] = re.findall(r'LIMIT *(.*)', test[2])[0]
+    t['resistance'] = ex[0][0]
+    t['pass'] = ex[0][1]
+    t['limit'] = re.findall(r'LIMIT *(.*)', test[2])[0]
+    obj['tests']['earthbond'] = t
     return parsetest(test[3:], obj)
   
   elif 'SUBST 1' in test[0]:
     ex = re.findall(r'SUBST 1 *(.*?) *([PF])', test[0])
-    obj['subst1'] = ex[0][0]
-    obj['subst1pass'] = ex[0][1]
-    obj['subst1limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    t = {}
+    t['current'] = ex[0][0]
+    t['pass'] = ex[0][1]
+    t['limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    obj['tests']['subst1'] = t
     return parsetest(test[2:], obj)
   
   elif 'SUBST 2' in test[0]:
     ex = re.findall(r'SUBST 2 *(.*?) *([PF])', test[0])
-    obj['subst2'] = ex[0][0]
-    obj['subst2pass'] = ex[0][1]
-    obj['subst2limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    t = {}
+    t['current'] = ex[0][0]
+    t['pass'] = ex[0][1]
+    t['limit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    obj['tests']['subst2'] = t
     return parsetest(test[2:], obj)
   
   elif 'PROBE PELV' in test[0]:
     ex = re.findall(r'PROBE PELV *([PF])', test[0])
-    obj['probepelvpass'] = ex[0]
-    obj['currentlimit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    t = {}
+    t['pass'] = ex[0]
+    t['currentlimit'] = re.findall(r'LIMIT *(.*)', test[1])[0]
+    obj['tests']['probepelv'] = t
     return parsetest(test[2:], obj)
 
   elif 'LOC1' in test[0]:
-    obj['loc1'] = re.findall(r'LOC1 *(.*)', test[0])[0]
-    obj['loc2'] = re.findall(r'LOC2 *(.*)', test[1])[0]
+    obj['loc'] = re.findall(r'LOC1 *(.*)', test[0])[0] + re.findall(r'LOC2 *(.*)', test[1])[0]
     return parsetest(test[2:], obj)
   
   elif 'DES1' in test[0]:
@@ -149,7 +176,8 @@ def parsetest(test, obj = None):
 
   else:
     # unknown entry type, skip this line?
-    print(test)
+    # print(test)
+    # print(obj)
     return parsetest(test[1:], obj)
 
 
@@ -162,7 +190,13 @@ with open('rptest.FLK') as t:
   print(f"Found {len(testdata)} tests.")
   for test in testdata:
     test = [l.rstrip() for l in test.split('\n')]
-    data = parsetest(test, {})
+    try:
+      data = parsetest(test)
+    except Exception as e:
+      print("---")
+      print("ERROR: malformed entry. Unable to parse test.")
+      print(e)
+      print(test)
     if data:
       tests.append(data)
 
